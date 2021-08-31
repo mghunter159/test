@@ -1,0 +1,148 @@
+body {
+	background-color: #2d3136 !important;
+}
+
+.formbl {
+	padding-bottom: 2rem;
+}
+
+.logo {
+	width: 200px;
+	margin-left: 2rem;
+}
+
+.logofoot {
+	width: 160px;
+	margin-left: 3rem;
+}
+
+.contacticon {
+	width: 170px;
+	margin-top: 2rem;
+}
+
+.contacts {
+	margin-top: 1rem;
+	padding-left: 2.8rem;
+}
+
+.contacts label {
+	color: white;
+}
+
+.contacts input {
+	height: 43px;
+}
+
+.contacts input,
+.contacts textarea {
+	width: 80%;
+	background: none !important;
+	border: 1px solid #4c4f53;
+	color: white;
+}
+
+.contacts input:focus,
+.contacts textarea:focus {
+	box-shadow: none;
+	background: none;
+	color: white;
+	border: 1px solid #743538;
+}
+
+.zvez {
+	display: contents;
+	color: red;
+}
+
+.go {
+	float: right;
+	margin: 0 20%;
+}
+
+.komm {
+	background-color: white;
+	padding-top: 2rem;
+}
+
+.komm h4 {
+	text-align: center;
+	color: #37414E;
+	padding-bottom: 2rem;
+}
+
+.wh {
+	width: 60%;
+	-webkit-column-count: 1 !important;
+	-moz-column-count: 1 !important;
+	column-count: 1 !important;
+	-webkit-column-gap: 1.25rem !important;
+	-moz-column-gap: 1.25rem;
+	column-gap: 1.25rem;
+	orphans: 1 !important;
+	widows: 1 !important;
+}
+
+@media screen and (min-width: 576px) {
+	.wh {
+		width: min-content;
+	}
+}
+
+@media screen and (min-width: 864px) {
+	.wh {
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	.wh {
+		width: 60%;
+	}
+}
+
+.cardw {
+	display: inline-flex !important; 
+	margin: 0px 2.5% !important;
+	width: 210px !important;
+	font-weight: bold;
+	border: none !important;
+	margin-bottom: 2.5rem !important;
+}
+
+.cardhg {
+	background-color: #4B596C;
+	color: white;
+	border-radius: 0px !important;
+}
+
+.cardbg {
+	color: #6D737B;
+	background-color: #E9EEF3;
+}
+
+.card:nth-child(even) {
+	background-color: #58AD52 !important;
+	color: white;
+	border-radius: 0px !important;
+}
+
+.card:nth-child(odd) {
+	background-color: #4B596C !important;
+	color: white;
+	border-radius: 0px !important;
+}
+
+.foot {
+	margin-top: 1rem;
+	margin-bottom: -0.5rem;
+}
+
+.iconfoot {
+	margin-right: 2rem;
+	display: flex;
+}
+
+.iconfoot2 {
+	width: 35px;
+}
